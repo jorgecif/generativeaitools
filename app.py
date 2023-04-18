@@ -75,7 +75,7 @@ st.sidebar.image(image, width=None, use_column_width=None)
 with st.sidebar:
     selected = option_menu(
         menu_title="Selecciona",  # required
-        options=["Home", "Actividades", "Herramientas", "Contacto"],  # required
+        options=["Home", "Actividades", "Herramientas", "Discord Server", "Contacto"],  # required
         icons=["house", "caret-right-fill",
                         "caret-right-fill", "envelope"],  # optional
         menu_icon="upc-scan",  # optional
@@ -177,7 +177,7 @@ if selected == "Actividades":
 
 
 if selected == "Herramientas":
-	actividad_select = st.sidebar.selectbox('Herramientas para', ('Selecciona','Imágenes', 'Texto'))
+	actividad_select = st.sidebar.selectbox('Herramientas para', ('Selecciona','Imágenes', 'Texto', 'Accesibilidad'))
 
 	if actividad_select=="Selecciona":
 		st.title("Seleccionaste la opción Herramientas")
@@ -226,8 +226,35 @@ if selected == "Herramientas":
 				* https://bing.com/chat 
 
 
+			
 
 		"""
+
+	if actividad_select=="Accesibilidad":
+		st.title(f"Herramientas para asegurar la accesibilidad")
+		st.write("Algunas herramientas:")
+		"""
+		* Guía para la creación de contenidos accesibles (Fundación Saldarriaga Concha):	
+			* https://www.saldarriagaconcha.org/wp-content/uploads/2022/08/2022-08-Agosto-Guia-para-la-innovacion-educativa-y-la-creaccion-de-contenidos-accesibles.pdf
+
+
+				
+
+
+		"""
+
+
+if selected == "Discord Server":
+	st.title("Seleccionaste la opción Discord Server")
+	st.write(' ')
+	st.write(' ')
+	st.write("En este servidor registra todos los resultados intermedios y finales productos de la hackatón de Evoke. Vas a encontrar un canal para cada uno de los equipos, aprovecha para compartir con los demás equipos tus resultados y ver los resultados de los demás.")
+	st.subheader("Discord Server Quidlab - Hackatón Evoke")
+	body = '<a href="https://discord.gg/UrgFx5RS">https://discord.gg/UrgFx5RS</a>'
+	image = PIL.Image.open('QR_discord.PNG')
+	st.sidebar.image(image, width=None, use_column_width=None)
+
+
 
 
 
