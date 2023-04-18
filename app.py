@@ -76,7 +76,7 @@ with st.sidebar:
     selected = option_menu(
         menu_title="Selecciona",  # required
         options=["Home", "Actividades", "Herramientas", "Discord Server", "Contacto"],  # required
-        icons=["house", "caret-right-fill",
+        icons=["house", "caret-right-fill", "caret-right-fill",
                         "caret-right-fill", "envelope"],  # optional
         menu_icon="upc-scan",  # optional
         default_index=0,  # optional
