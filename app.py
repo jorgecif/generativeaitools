@@ -252,7 +252,7 @@ if selected == "Discord Server":
 	st.subheader("Discord Server Quidlab - Hackatón Evoke")
 	body = '<a href="https://discord.gg/UrgFx5RS">https://discord.gg/UrgFx5RS</a>'
 	image = PIL.Image.open('QR_discord.PNG')
-	st.sidebar.image(image, width=None, use_column_width=None)
+	st.image(image, width=None, use_column_width=None)
 
 
 
