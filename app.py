@@ -250,7 +250,7 @@ if selected == "Discord Server":
 	st.write(' ')
 	st.write("En este servidor registra todos los resultados intermedios y finales productos de la hackatón de Evoke. Vas a encontrar un canal para cada uno de los equipos, aprovecha para compartir con los demás equipos tus resultados y ver los resultados de los demás.")
 	st.subheader("Discord Server Quidlab - Hackatón Evoke")
-	body = '<a href="https://discord.gg/UrgFx5RS">https://discord.gg/UrgFx5RS</a>'
+	body = '<a href="https://discord.gg/Fcz2NM7pSz">https://discord.gg/Fcz2NM7pSz</a>'
 	st.markdown(body, unsafe_allow_html=True)
 
 	image = PIL.Image.open('QR_discord.PNG')
