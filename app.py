@@ -212,7 +212,10 @@ if selected == "Herramientas":
 				* Discord Server: https://discord.gg/UrgFx5RS 
 			* Bing Image Creator (Dall-e)
 				* https://www.bing.com/images/create 
-
+			* Scribble Diffusion 
+				* https://scribblediffusion.com/
+			* ControNet 
+				* https://stablediffusionweb.com/ControlNet#demo
 
 		"""
 	if actividad_select=="Texto":
