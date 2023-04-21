@@ -204,9 +204,12 @@ if selected == "Herramientas":
 				
 		* Herramientas para generar imágenes a partir de prompts:
 
-			* https://stablediffusionweb.com/#demo 
-			* https://lexica.art/aperture
-			* http://midjourney.com/ 
+			* Stable Diffusion
+				* https://stablediffusionweb.com/#demo 
+			* Lexica ART
+				* https://lexica.art/aperture
+			* Midjourney
+				* http://midjourney.com/ 
 				* Discord Server: https://discord.gg/midjourney 
 			* https://www.bluewillow.ai/ 
 				* Discord Server: https://discord.gg/UrgFx5RS 
@@ -216,6 +219,11 @@ if selected == "Herramientas":
 				* https://scribblediffusion.com/
 			* ControNet 
 				* https://stablediffusionweb.com/ControlNet#demo
+			* Dream by Wombo
+				* https://dream.ai/create
+			* Leonardo AI
+				* https://leonardo.ai/
+
 
 		"""
 	if actividad_select=="Texto":
