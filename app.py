@@ -217,7 +217,7 @@ if selected == "Herramientas":
 				* https://www.bing.com/images/create 
 			* Scribble Diffusion 
 				* https://scribblediffusion.com/
-			* ControNet 
+			* ControlNet 
 				* https://stablediffusionweb.com/ControlNet#demo
 			* Dream by Wombo
 				* https://dream.ai/create
