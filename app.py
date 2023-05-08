@@ -86,7 +86,7 @@ with st.sidebar:
 
 if selected == "Home":
 	st.title("Hackatón Evoke 2023 - Cali, Colombia")
-	st.write("Esta aplicación te permitirá acceder a algunas actividades y herramientas relacionadas con Inteencia Artificial que estaremos trabajando en la Hackatón de Evoke 2023.\n \n Tenla siempre a meno porque seguramente será de mucha utilidad.\n\n\n\n")
+	st.write("Esta aplicación te permitirá acceder a algunas actividades y herramientas relacionadas con Inteligencia Artificial que estaremos trabajando en la Hackatón de Evoke 2023.\n \n Tenla siempre a mano porque seguramente será de mucha utilidad.\n\n\n\n")
 	st.write(' ')
 	st.write("**Instrucciones:** \n Selecciona en el menú de la izquierda la sección de tu preferencia.")
 	"""
